@@ -1,0 +1,40 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// استایل فارسی
+body {
+  font-family: 'Tahoma', 'Arial', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+// کدها همچنان چپ‌چین
+pre, code, .language-bash, .language-yaml, .language-json {
+  direction: ltr;
+  text-align: left;
+  font-family: 'Courier New', monospace;
+}
+
+// بهبود نمایش
+.main-content {
+  direction: rtl;
+}
+
+.main-content h1, .main-content h2, .main-content h3 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+// رنگ‌بندی بهتر
+.highlight {
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+// نمایش بهتر لیست‌ها
+ul, ol {
+  padding-right: 20px;
+}
